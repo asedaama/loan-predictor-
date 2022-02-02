@@ -9,6 +9,7 @@ import streamlit as st
 import numpy as np
 import string
 import pickle
+import sklearn
 st.set_option('deprecation.showfileUploaderEncoding',False)
 model = pickle.load(open('model2.pkl','rb'))
 
